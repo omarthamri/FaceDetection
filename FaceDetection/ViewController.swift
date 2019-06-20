@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.init(white: 0.9, alpha: 1)
         guard let image = UIImage(named: "suits") else { return }
         let imageView = UIImageView(image: image)
         imageView.contentMode = .scaleAspectFit
